@@ -5,8 +5,11 @@ $main-heading: hsl(0,0%,100%);
 $main-paragraph: hsla(0, 0%,100%, 0.75);
 $stats-heading: hsla(0, 0%, 100%, 0.6);
 $body-font-size: 15px;
-$body-font-family: "Inter", sans-serif;
-$body-font-weight: 400, 700;
+$primary-font-family: "Inter", sans-serif;
+$primary-font-weight: 400, 700;
+$secondary-font-family: "Lexend Deca", sans-serif;
+$secondary-font-weigth: 400;
+
 
 body{
     background-color: $very-dark-blue;
