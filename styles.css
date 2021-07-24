@@ -3,4 +3,21 @@ body {
   font-size: 15px;
 }
 
+#text-section {
+  background-color: #1b1938;
+  border: 2px solid white;
+}
+#text-section #top-paragraph {
+  color: white;
+}
+#text-section #second-paragraph {
+  color: rgba(255, 255, 255, 0.75);
+}
+#text-section .stats .stats-analytics {
+  color: white;
+}
+#text-section .stats .stats-item {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /*# sourceMappingURL=styles.css.map */
