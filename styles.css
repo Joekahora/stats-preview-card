@@ -8,11 +8,22 @@ body {
 }
 
 @media (max-width: 375px) {
+  #image-wrapper {
+    background-color: #ad60dc;
+    height: 250px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+  }
+
   #image-section {
     background-image: url("./images/image-header-mobile.jpg");
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 250px;
-    width: 250px;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
   }
 
   #text-section {
