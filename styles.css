@@ -30,6 +30,9 @@ body {
   #text-section {
     background-color: #1b1938;
   }
+  #text-section #highlight {
+    color: #ad60dc;
+  }
   #text-section #top-paragraph {
     color: white;
   }
