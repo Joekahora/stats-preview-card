@@ -42,7 +42,6 @@ body {
   }
   #text-section .stats {
     list-style-type: none;
-    border: 1px solid green;
   }
   #text-section .stats .stats-analytics {
     color: white;
