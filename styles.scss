@@ -8,7 +8,7 @@ $body-font-size: 15px;
 $primary-font-family: "Inter", sans-serif;
 $primary-font-weight: 400, 700;
 $secondary-font-family: "Lexend Deca", sans-serif;
-$secondary-font-weigth: 400;
+$secondary-font-weight: 400;
 
 
 body{
@@ -38,16 +38,20 @@ body{
     }
     #text-section{
         background-color: $card-background;
-        text-align: center;
+        text-align: center;   
+
+        #top-paragraph{
+            color: $main-heading;
+            font-family: $primary-font-family;
+            font-weight: $primary-font-weight;
+        }
         #highlight{
             color: $soft-violet-accent;
         }
-    
-        #top-paragraph{
-            color: $main-heading;
-        }
         #second-paragraph{
             color: $main-paragraph;
+            font-family: $secondary-font-family;
+            font-weight: $secondary-font-weight;
         }
         .stats{
             list-style-type: none;

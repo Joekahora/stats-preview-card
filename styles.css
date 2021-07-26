@@ -31,14 +31,18 @@ body {
     background-color: #1b1938;
     text-align: center;
   }
+  #text-section #top-paragraph {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400, 700;
+  }
   #text-section #highlight {
     color: #ad60dc;
   }
-  #text-section #top-paragraph {
-    color: white;
-  }
   #text-section #second-paragraph {
     color: rgba(255, 255, 255, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
   }
   #text-section .stats {
     list-style-type: none;
