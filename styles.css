@@ -29,6 +29,7 @@ body {
 
   #text-section {
     background-color: #1b1938;
+    text-align: center;
   }
   #text-section #highlight {
     color: #ad60dc;
