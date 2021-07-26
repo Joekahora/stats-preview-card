@@ -50,6 +50,8 @@ body{
             color: $main-paragraph;
         }
         .stats{
+            list-style-type: none;
+            border: 1px solid green;
             .stats-analytics{
                 color: $main-heading;
             }
