@@ -1,0 +1,62 @@
+$main-background: hsl(233, 47%,7%);
+$card-background: hsl(244,38%, 16%);
+$soft-violet-accent: hsl(277, 64%, 62%);
+$main-heading: hsl(0,0%,100%);
+$main-paragraph: hsla(0, 0%,100%, 0.75);
+$stat-heading: hsla(0, 0%, 100%, 0.6);
+$body-font-size: 15px;
+$primary-font-family: "Inter", sans-serif;
+$primary-font-weight: 400, 700;
+$secondary-font-family: "Lexend Deca", sans-serif;
+$secondary-font-weigth: 400;
+
+
+body{
+    background-color: $main-background;
+    font-size: $body-font-size;
+}
+#container{
+    border: 2px dotted red;
+}
+@media(max-width: 375px){
+    #image-wrapper{
+        background-color: $soft-violet-accent;
+        height: 250px;
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+        border: 2px solid pink;
+    }
+    #image-section{
+        background-image: url("./images/image-header-mobile.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat:no-repeat;
+        mix-blend-mode: multiply;
+        opacity: 0.8;
+        height: 100%;
+        width: 100%;
+    }
+    #text-section{
+        background-color: $card-background;
+        text-align: center;
+        #highlight{
+            color: $soft-violet-accent;
+        }
+    
+        #top-paragraph{
+            color: $main-heading;
+        }
+        #second-paragraph{
+            color: $main-paragraph;
+        }
+        .stats{
+            .stats-analytics{
+                color: $main-heading;
+            }
+            .stats-item{
+                color: $stat-heading;
+            }
+        }
+    }
+
+}
