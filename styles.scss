@@ -17,7 +17,7 @@ body{
 #container{
     border: 2px dotted rgb(19, 12, 12);
 }
-@media(max-width: 375px){
+@media(max-width: 600px){
     #image-wrapper{
         background-color: $soft-violet-accent;
         height: 250px;

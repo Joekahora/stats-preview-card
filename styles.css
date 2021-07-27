@@ -6,7 +6,7 @@ body {
   border: 2px dotted #130c0c;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
   #image-wrapper {
     background-color: #ad60dc;
     height: 250px;
