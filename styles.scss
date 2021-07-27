@@ -13,16 +13,30 @@ $secondary-font-weight: 400;
 
 body{
     background-color: $main-background;
+    margin: 200px;
+    padding: 10px;
 }
 #container{
     border: 1px solid pink;
     border-radius: 25px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 #image-wrapper{
     background-color: $soft-violet-accent;
     height: 250px;
     width: 100%;
     border-radius: 0 25px 25px 0;
+}
+#image-section{
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    mix-blend-mode: multiply;
 }
 @media(max-width: 600px){
     #image-wrapper{
