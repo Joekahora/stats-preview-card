@@ -15,7 +15,14 @@ body{
     background-color: $main-background;
 }
 #container{
-    border: 2px dotted rgb(19, 12, 12);
+    border: 1px solid pink;
+    border-radius: 25px;
+}
+#image-wrapper{
+    background-color: $soft-violet-accent;
+    height: 250px;
+    width: 100%;
+    border-radius: 0 25px 25px 0;
 }
 @media(max-width: 600px){
     #image-wrapper{
