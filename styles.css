@@ -1,10 +1,9 @@
 body {
   background-color: #090b1a;
-  font-size: 15px;
 }
 
 #container {
-  border: 2px dotted red;
+  border: 2px dotted #130c0c;
 }
 
 @media (max-width: 375px) {
@@ -13,7 +12,6 @@ body {
     height: 250px;
     width: 100%;
     border-radius: 25px 25px 0 0;
-    border: 2px solid pink;
   }
 
   #image-section {
@@ -30,11 +28,13 @@ body {
   #text-section {
     background-color: #1b1938;
     text-align: center;
+    padding: 20px;
   }
   #text-section #top-paragraph {
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 400, 700;
+    font-size: 2rem;
   }
   #text-section #highlight {
     color: #ad60dc;
@@ -43,15 +43,22 @@ body {
     color: rgba(255, 255, 255, 0.75);
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
   }
   #text-section .stats {
     list-style-type: none;
   }
   #text-section .stats .stats-analytics {
     color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400, 700;
   }
   #text-section .stats .stats-item {
     color: rgba(255, 255, 255, 0.6);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
   }
 }
 

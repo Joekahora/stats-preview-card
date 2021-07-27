@@ -4,7 +4,7 @@ $soft-violet-accent: hsl(277, 64%, 62%);
 $main-heading: hsl(0,0%,100%);
 $main-paragraph: hsla(0, 0%,100%, 0.75);
 $stat-heading: hsla(0, 0%, 100%, 0.6);
-$body-font-size: 15px;
+$body-font-size: 2rem;
 $primary-font-family: "Inter", sans-serif;
 $primary-font-weight: 400, 700;
 $secondary-font-family: "Lexend Deca", sans-serif;
@@ -13,10 +13,9 @@ $secondary-font-weight: 400;
 
 body{
     background-color: $main-background;
-    font-size: $body-font-size;
 }
 #container{
-    border: 2px dotted red;
+    border: 2px dotted rgb(19, 12, 12);
 }
 @media(max-width: 375px){
     #image-wrapper{
@@ -24,7 +23,6 @@ body{
         height: 250px;
         width: 100%;
         border-radius: 25px 25px 0 0;
-        border: 2px solid pink;
     }
     #image-section{
         background-image: url("./images/image-header-mobile.jpg");
@@ -38,12 +36,14 @@ body{
     }
     #text-section{
         background-color: $card-background;
-        text-align: center;   
+        text-align: center;
+        padding: 20px;;   
 
         #top-paragraph{
             color: $main-heading;
             font-family: $primary-font-family;
             font-weight: $primary-font-weight;
+            font-size: $body-font-size;
         }
         #highlight{
             color: $soft-violet-accent;
@@ -52,14 +52,21 @@ body{
             color: $main-paragraph;
             font-family: $secondary-font-family;
             font-weight: $secondary-font-weight;
+            font-size: 12px;
+            line-height: 1.6;
         }
         .stats{
             list-style-type: none;
             .stats-analytics{
                 color: $main-heading;
+                font-family: $primary-font-family;
+                font-weight: $primary-font-weight;
             }
             .stats-item{
                 color: $stat-heading;
+                font-family: $secondary-font-family;
+                font-weight: $secondary-font-weight;
+                font-size: 10px;
             }
         }
     }
