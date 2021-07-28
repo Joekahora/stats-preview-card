@@ -31,8 +31,7 @@ body {
   #text-section {
     background-color: #1b1938;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     border-radius: 0 0 15px 15px;
   }
   #text-section #top-paragraph {
