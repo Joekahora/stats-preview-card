@@ -1,24 +1,21 @@
 body {
   background-color: #090b1a;
-  margin: 200px;
-  padding: 10px;
+  justify-items: center;
 }
 
 #container {
-  border: 1px solid pink;
-  border-radius: 25px;
+  border-radius: 15px 15px 15px 15px;
   display: flex;
   flex-direction: row-reverse;
+  margin: 80px;
 }
-
-#image-wrapper {
+#container #image-wrapper {
   background-color: #ad60dc;
-  height: 250px;
+  height: 500px;
   width: 100%;
-  border-radius: 0 25px 25px 0;
+  border-radius: 0 15px 15px 0;
 }
-
-#image-section {
+#container #image-section {
   background-image: url("./images/image-header-desktop.jpg");
   background-size: cover;
   background-position: center;
@@ -28,8 +25,49 @@ body {
   opacity: 0.8;
   mix-blend-mode: multiply;
 }
+#container #text-section {
+  background-color: #1b1938;
+  padding: 50px;
+  border-radius: 15px 0 0 15px;
+}
+#container #top-paragraph {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400, 700;
+  font-size: 34px;
+  line-height: 1.6;
+}
+#container #highlight {
+  color: #ad60dc;
+}
+#container #second-paragraph {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+#container .stats {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+#container .stats .stats-analytics {
+  color: white;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400, 700;
+}
+#container .stats .stats-item {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 0.1;
+}
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 375px) {
   #image-wrapper {
     background-color: #ad60dc;
     height: 250px;
@@ -57,7 +95,7 @@ body {
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 400, 700;
-    font-size: 2rem;
+    font-size: 1rem;
   }
   #text-section #highlight {
     color: #ad60dc;

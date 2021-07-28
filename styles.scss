@@ -4,7 +4,7 @@ $soft-violet-accent: hsl(277, 64%, 62%);
 $main-heading: hsl(0,0%,100%);
 $main-paragraph: hsla(0, 0%,100%, 0.75);
 $stat-heading: hsla(0, 0%, 100%, 0.6);
-$body-font-size: 2rem;
+$body-font-size: 1rem;
 $primary-font-family: "Inter", sans-serif;
 $primary-font-weight: 400, 700;
 $secondary-font-family: "Lexend Deca", sans-serif;
@@ -13,32 +13,74 @@ $secondary-font-weight: 400;
 
 body{
     background-color: $main-background;
-    margin: 200px;
-    padding: 10px;
+    justify-items: center;
 }
 #container{
-    border: 1px solid pink;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: row-reverse;
+        border-radius: 15px 15px 15px 15px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 80px;
+
+    #image-wrapper{
+        background-color: $soft-violet-accent;
+        height: 500px;
+        width: 100%;
+        border-radius: 0 15px 15px 0;
+    }
+    #image-section{
+        background-image: url("./images/image-header-desktop.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        opacity: 0.8;
+        mix-blend-mode: multiply;
+    }
+    #text-section{
+        background-color: $card-background; 
+        padding: 50px;
+        border-radius: 15px 0 0 15px;
+    }
+    #top-paragraph{
+        color: $main-heading;
+        font-family: $primary-font-family;
+        font-weight: $primary-font-weight;
+        font-size: 34px;
+        line-height: 1.6;
+    }
+    #highlight{
+        color: $soft-violet-accent;
+    }
+    #second-paragraph{
+        color: $main-paragraph;
+        font-size: 15px;
+        font-family: $secondary-font-family;
+        font-weight: $secondary-font-weight;
+        line-height: 1.6;
+    }
+    .stats{
+        list-style-type: none;
+        display: flex;
+        justify-content:space-between;
+        margin-top: 25px;
+
+        .stats-analytics{
+            color: $main-heading;
+            font-size: $body-font-size;
+            font-family: $primary-font-family;
+            font-weight: $primary-font-weight;
+        }
+        .stats-item{
+            color: $stat-heading;
+            font-family: $secondary-font-family;
+            font-weight: $secondary-font-weight;
+            font-size: 10px;
+            line-height: 0.1;
+        }
+    }
 }
-#image-wrapper{
-    background-color: $soft-violet-accent;
-    height: 250px;
-    width: 100%;
-    border-radius: 0 25px 25px 0;
-}
-#image-section{
-    background-image: url("./images/image-header-desktop.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    opacity: 0.8;
-    mix-blend-mode: multiply;
-}
-@media(max-width: 600px){
+@media only screen and (max-width: 375px){
     #image-wrapper{
         background-color: $soft-violet-accent;
         height: 250px;
