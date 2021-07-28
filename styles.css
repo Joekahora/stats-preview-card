@@ -1,78 +1,20 @@
 body {
   background-color: #090b1a;
-  justify-items: center;
 }
 
-#container {
-  border-radius: 15px 15px 15px 15px;
-  display: flex;
-  flex-direction: row-reverse;
-  margin: 80px;
-}
-#container #image-wrapper {
-  background-color: #ad60dc;
-  height: 500px;
-  width: 100%;
-  border-radius: 0 15px 15px 0;
-}
-#container #image-section {
-  background-image: url("./images/image-header-desktop.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  opacity: 0.8;
-  mix-blend-mode: multiply;
-}
-#container #text-section {
-  background-color: #1b1938;
-  padding: 50px;
-  border-radius: 15px 0 0 15px;
-}
-#container #top-paragraph {
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-weight: 400, 700;
-  font-size: 34px;
-  line-height: 1.6;
-}
-#container #highlight {
-  color: #ad60dc;
-}
-#container #second-paragraph {
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 15px;
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-  line-height: 1.6;
-}
-#container .stats {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 25px;
-}
-#container .stats .stats-analytics {
-  color: white;
-  font-size: 1rem;
-  font-family: "Inter", sans-serif;
-  font-weight: 400, 700;
-}
-#container .stats .stats-item {
-  color: rgba(255, 255, 255, 0.6);
-  font-family: "Lexend Deca", sans-serif;
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 0.1;
-}
+@media only screen and (max-width: 600px) {
+  #container {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
 
-@media only screen and (max-width: 375px) {
   #image-wrapper {
     background-color: #ad60dc;
     height: 250px;
     width: 100%;
-    border-radius: 25px 25px 0 0;
+    border-radius: 15px 15px 0 0;
   }
 
   #image-section {
@@ -89,7 +31,9 @@ body {
   #text-section {
     background-color: #1b1938;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 15px 15px;
   }
   #text-section #top-paragraph {
     color: white;
@@ -108,12 +52,13 @@ body {
     line-height: 1.6;
   }
   #text-section .stats {
-    list-style-type: none;
+    border: 1px solid red;
   }
   #text-section .stats .stats-analytics {
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 400, 700;
+    font-size: 1rem;
   }
   #text-section .stats .stats-item {
     color: rgba(255, 255, 255, 0.6);
