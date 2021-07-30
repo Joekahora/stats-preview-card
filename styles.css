@@ -2,68 +2,136 @@ body {
   background-color: #090b1a;
 }
 
-@media only screen and (max-width: 600px) {
+#container {
+  margin: 50px 10px 20px 10px;
+}
+
+#image-wrapper {
+  background-color: #ad60dc;
+  height: 250px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+#image-section {
+  background-image: url("./images/image-header-mobile.jpg");
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+  height: 100%;
+  width: 100%;
+}
+
+#text-section {
+  background-color: #1b1938;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0 0 15px 15px;
+}
+#text-section #top-paragraph {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400, 700;
+  font-size: 24px;
+}
+#text-section #highlight {
+  color: #ad60dc;
+}
+#text-section #second-paragraph {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+}
+#text-section .stats .stats-analytics {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400, 700;
+  font-size: 1rem;
+}
+#text-section .stats .stats-item {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+
+@media (min-width: 900px) {
+  body {
+    background-color: #090b1a;
+  }
+
   #container {
-    margin-top: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 81px;
   }
 
   #image-wrapper {
     background-color: #ad60dc;
-    height: 250px;
+    height: 500px;
     width: 100%;
-    border-radius: 15px 15px 0 0;
+    border-radius: 0 15px 15px 0;
   }
 
   #image-section {
-    background-image: url("./images/image-header-mobile.jpg");
-    background-size: cover;
-    background-position: center;
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: contain;
     background-repeat: no-repeat;
-    mix-blend-mode: multiply;
-    opacity: 0.8;
     height: 100%;
     width: 100%;
+    opacity: 0.8;
+    mix-blend-mode: multiply;
   }
 
   #text-section {
     background-color: #1b1938;
-    text-align: center;
-    padding: 20px;
-    border-radius: 0 0 15px 15px;
+    padding: 70px 50px 70px 50px;
+    border-radius: 15px 0 0 15px;
   }
-  #text-section #top-paragraph {
+
+  #top-paragraph {
+    text-align: justify;
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 400, 700;
-    font-size: 1rem;
+    font-size: 48px;
   }
-  #text-section #highlight {
+
+  #highlight {
     color: #ad60dc;
   }
-  #text-section #second-paragraph {
+
+  #second-paragraph {
+    text-align: justify;
     color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 1.6;
+    line-height: 1.9;
   }
-  #text-section .stats {
-    border: 1px solid red;
+
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
   }
-  #text-section .stats .stats-analytics {
+  .stats .stats-analytics {
     color: white;
+    font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 400, 700;
-    font-size: 1rem;
   }
-  #text-section .stats .stats-item {
+  .stats .stats-item {
     color: rgba(255, 255, 255, 0.6);
     font-family: "Lexend Deca", sans-serif;
     font-weight: 400;
     font-size: 10px;
+    line-height: 0.1;
   }
 }
 
