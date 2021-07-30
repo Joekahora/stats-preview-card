@@ -15,19 +15,19 @@ body{
 }
 
 #container{
-    margin: 50px 10px 20px 10px;
-    // max-width: 600px;
+    padding: 5px;
 }
+
 #image-wrapper{
     background-color: $soft-violet-accent;
-    height: 250px;
-    width: 100%;
+    height: 300px;
+    width: 340px;
     border-radius: 15px 15px 0 0;
 }
 #image-section{
     background-image: url("./images/image-header-mobile.jpg");
     background-size: cover;
-    background-position:fixed;
+    background-position: center;
     background-repeat:no-repeat;
     mix-blend-mode: multiply;
     opacity: 0.8;
@@ -39,6 +39,7 @@ body{
     text-align: center;
     padding: 20px; 
     border-radius: 0 0 15px 15px;
+    width: 300px;
 
     #top-paragraph{
         color: $main-heading;
@@ -75,30 +76,30 @@ body{
 @media (min-width: 900px){
     body{
         background-color: $main-background;
-        // width: 100%;
-        // height: 100%;
     }
 
     #container{
         border-radius: 15px;
         display: flex;
         flex-direction: row-reverse;
-        margin: 81px;
+        justify-content: center;
+        align-content:center;
+        margin-top: 20vh;
     }
 
     #image-wrapper{
         background-color: $soft-violet-accent;
-        height: 500px;
-        width: 100%;
+        height: auto;
+        width: 500px;
         border-radius: 0 15px 15px 0;
     }
     #image-section{
         background-image: url("./images/image-header-desktop.jpg");
-        background-size: contain;
-        // background-position: fixed;
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
-        height: 100%;
-        width: 100%;
+        // height: 500px;
+        // width: 500px;
         opacity: 0.8;
         mix-blend-mode: multiply;
     }
@@ -106,7 +107,7 @@ body{
         background-color: $card-background; 
         padding: 70px 50px 70px 50px;
         border-radius: 15px 0 0 15px;
-
+        width: 500px;
     }
     #top-paragraph{
         text-align: justify;
