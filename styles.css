@@ -1,8 +1,5 @@
 body {
   background-color: #090b1a;
-}
-
-#container {
   padding: 5px;
 }
 
@@ -60,7 +57,7 @@ body {
   font-size: 10px;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   body {
     background-color: #090b1a;
   }
@@ -71,7 +68,84 @@ body {
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
-    margin-top: 20vh;
+    margin: 100px;
+  }
+
+  #image-wrapper {
+    background-color: #ad60dc;
+    height: auto;
+    width: 500px;
+    border-radius: 0 15px 15px 0;
+  }
+
+  #image-section {
+    background-image: url("./images/image-header-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+  }
+
+  #text-section {
+    background-color: #1b1938;
+    padding: 70px 50px 70px 50px;
+    border-radius: 15px 0 0 15px;
+    width: 500px;
+  }
+
+  #top-paragraph {
+    text-align: justify;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400, 700;
+    font-size: 48px;
+  }
+
+  #highlight {
+    color: #ad60dc;
+  }
+
+  #second-paragraph {
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    line-height: 1.9;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+  }
+  .stats .stats-analytics {
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400, 700;
+  }
+  .stats .stats-item {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 0.1;
+  }
+}
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: #090b1a;
+  }
+
+  #container {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    margin: 25vh;
   }
 
   #image-wrapper {
