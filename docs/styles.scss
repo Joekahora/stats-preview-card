@@ -15,11 +15,10 @@ $secondary-font-weight: 400;
     }
     #container{
         max-width: 500px;
-        margin: 10px 5px;
+        margin: 10px 5px 10px 5px;
     }
     #image-wrapper{
         background-color: $soft-violet-accent;
-        margin-left: 25px;
         height: 300px;
         width: auto;
         border-radius: 15px 15px 0 0;
@@ -37,7 +36,6 @@ $secondary-font-weight: 400;
     #text-section{
         background-color: $card-background;
         text-align: center;
-        margin-left: 25px;
         padding: 20px; 
         border-radius: 0 0 15px 15px;
         width: auto;
