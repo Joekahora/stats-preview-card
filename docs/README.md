@@ -4,15 +4,25 @@ This a solution to the [Stats preview card component challenge on Frontend Mento
 
 ## Table of Contents
 - [Overview](#overview)
+
     -[The Challenge](#the-challenge)
+
     -[ScreenShot](#screenshot)
+
     -[Links](#links)
+
 -[My process](#my-process)
-    -[Built with](#my-process)
+
+    -[Built with](#built-with)
+
     -[What I learned](#what-i-learned)
+
     -[Continued Development](#continued-development)
+
     -[Useful resources](#useful-resources)
+
 -[Author](#author)
+
 -[Acknowledgments](#acknowledgements)
 
 ## Overview
@@ -39,7 +49,9 @@ Users Should be able to:
 -Semantic HTML5 markup
 
 -CSS custom properties
+
 -Flexbox
+
 -Mobile-first workflow
 
 ### What I learned
