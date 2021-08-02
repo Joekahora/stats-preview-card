@@ -36,7 +36,10 @@ Users Should be able to:
 
 ### Built with
 
--Semantic HTML5 markuo
+-Semantic HTML5 markup
+
 -CSS custom properties
 -Flexbox
 -Mobile-first workflow
+
+### What I learned
