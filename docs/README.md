@@ -14,3 +14,29 @@ This a solution to the [Stats preview card component challenge on Frontend Mento
     -[Useful resources](#useful-resources)
 -[Author](#author)
 -[Acknowledgments](#acknowledgements)
+
+## Overview
+
+### The challenge
+
+Users Should be able to:
+
+- View the optimal layout depending on their device's screen size
+
+### Screenshot
+
+![](./images/screenshot.jpg)
+
+### Links
+
+-Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
+-Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My Process
+
+### Built with
+
+-Semantic HTML5 markuo
+-CSS custom properties
+-Flexbox
+-Mobile-first workflow
