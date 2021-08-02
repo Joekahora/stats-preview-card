@@ -71,6 +71,14 @@ $secondary-font-weight: 400;
             }
         }
     }
+    .attribution{
+        font-size: 11px;
+        text-align: center;
+        padding-top: 20px;
+        a {
+            color: hsl(228, 45%, 44%);
+        }
+    }
 }
 
 @media  screen and (min-width: 940px){
