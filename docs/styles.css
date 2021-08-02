@@ -66,6 +66,7 @@
     font-size: 11px;
     text-align: center;
     padding-top: 20px;
+    color: white;
   }
   .attribution a {
     color: #3e52a3;
@@ -151,6 +152,16 @@
     font-weight: 400;
     font-size: 10px;
     line-height: 0.1;
+  }
+
+  .attribution {
+    font-size: 11px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+  .attribution a {
+    color: #3e52a3;
   }
 }
 

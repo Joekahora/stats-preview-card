@@ -75,6 +75,7 @@ $secondary-font-weight: 400;
         font-size: 11px;
         text-align: center;
         padding-top: 20px;
+        color: white;
         a {
             color: hsl(228, 45%, 44%);
         }
@@ -156,6 +157,15 @@ $secondary-font-weight: 400;
             font-weight: $secondary-font-weight;
             font-size: 10px;
             line-height: 0.1;
+        }
+    }
+    .attribution{
+        font-size: 11px;
+        color: white;
+        text-align: center;
+        padding-top: 20px; 
+        a{
+            color: hsl(228, 45%, 44%);
         }
     }
 
