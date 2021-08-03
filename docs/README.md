@@ -41,8 +41,9 @@ Users Should be able to:
 
 ### Links
 
--Solution URL: [Frontend Mentor Solution](https://your-solution-url.com)
--Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-Solution URL: [Frontend Mentor Solution](https://github.com/Joekahora/stats-preview-card)
+
+-Live Site URL: [Live site URL](https://joekahora.github.io/stats-preview-card)
 
 ## My Process
 
