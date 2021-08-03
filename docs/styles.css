@@ -5,13 +5,13 @@
 
   #container {
     max-width: 500px;
-    margin: 10px 5px 10px 5px;
+    margin: 10px auto;
   }
 
   #image-wrapper {
     background-color: #ad60dc;
-    height: 300px;
-    width: auto;
+    height: 375px;
+    width: 100%;
     border-radius: 15px 15px 0 0;
   }
 
@@ -83,7 +83,7 @@
     flex-direction: row-reverse;
     justify-content: center;
     align-content: center;
-    margin-top: 15vh;
+    margin-top: 20vh;
     height: 500px;
   }
 
