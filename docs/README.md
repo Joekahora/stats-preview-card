@@ -86,3 +86,23 @@ Users Should be able to:
       height: 100%;
       width: auto;
   }
+
+### Continued development
+- To learn more about positions such as relative and absolute 
+
+- To learn more about units such as rem, em, vh, vw and where it is appropriate to use them 
+
+- Media Queries breakpoints
+
+### Useful resources
+
+- [MDN](https://developer.mozilla.org/en-us/docs/Web/CSS/mix-blend-mode) Helped me understand how to use mix blend mode and its various attributes
+
+- [w3schools](https://www.w3schools.com/cssref/css3_pr_flex.asp) Helped me understand more on css flex and its properties.
+
+## Author
+- Github - [Joekahora](https://github.com/Joekahora)
+- Frontend Mentor - [@JoeKahora](https://frontendmentor.io/profile/Joekahora)
+
+## Acknowledgements
+- I would like to say thank you to <b> Grace snow </b> from the frontend mentor slack channel for her previous answered queries from the "help" group that helped me steer to the right direction.
