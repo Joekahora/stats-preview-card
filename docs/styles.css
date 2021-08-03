@@ -114,12 +114,12 @@
   }
 
   #top-paragraph {
-    text-align: justify;
+    text-align: left;
     color: white;
     font-family: "Inter", sans-serif;
     font-weight: 400, 700;
     font-size: 32px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
   }
 
   #highlight {
