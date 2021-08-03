@@ -58,3 +58,31 @@ Users Should be able to:
 -Mobile-first workflow
 
 ### What I learned
+- Learnt to use flex to layout my elements the way the design demands.
+
+- Learnt to use the mix-blend-mode css property to set how my background color and my image overlay to blend well together.
+  In-order to mix them well  I used this code.
+
+  ``` html
+  <section id="image-wrapper">
+      <div id="image-section" role="img" aria-roledescription="analytics members">
+  </section>
+  ```
+  ```css
+  #image-wrapper{
+      background-color: #ad60dc;
+      height: 300px;
+      width: auto;
+      border-radius: 15px 15px 0 0;
+  }
+
+  #image-section{
+      background-image: url("./images/image-header-mobile.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      mix-blend-mode: multiply;
+      opacity: 0.8;
+      height: 100%;
+      width: auto;
+  }
