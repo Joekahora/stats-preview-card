@@ -36,7 +36,8 @@ Users Should be able to:
 
 ### Screenshot
 
-![](./images/screenshot.jpg)
+![Desktop Solution](./images/screenshot-desktop.png)
+![Mobile Solution](./images/screenshot-mobile.png)
 
 ### Links
 
