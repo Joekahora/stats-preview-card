@@ -105,4 +105,8 @@ Users Should be able to:
 - Frontend Mentor - [@JoeKahora](https://frontendmentor.io/profile/Joekahora)
 
 ## Acknowledgements
-- I would like to say thank you to <b> Grace snow </b> from the frontend mentor slack channel for her previous answered queries from the "help" group that helped me steer to the right direction.
+- I would like to say thank you to 
+    - <b> Grace snow </b> 
+    - [Chamunorwa Mutezva](https://frontendmentor.io/profile/ChamuMutezva)   
+    - [Ahmed Faisal](https://frontendmentor.io/profile/afrussel) 
+    - [Patrick](https://frontend.io/profile/palgramming) from the frontend mentor slack channel for her previous answered queries from the "help" group that helped me steer to the right direction.
