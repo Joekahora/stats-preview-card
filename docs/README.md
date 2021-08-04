@@ -106,7 +106,7 @@ Users Should be able to:
 
 ## Acknowledgements
 - I would like to say thank you to 
-    - <b> Grace snow </b> 
+    - <b> Grace snow </b> from the frontend mentor slack channel for her previous answered queries from the "help" group that helped me steer to the right direction and also the following mentors from frontend mentors website community feedback for their feedback on my project solution.
     - [Chamunorwa Mutezva](https://frontendmentor.io/profile/ChamuMutezva)   
     - [Ahmed Faisal](https://frontendmentor.io/profile/afrussel) 
-    - [Patrick](https://frontend.io/profile/palgramming) from the frontend mentor slack channel for her previous answered queries from the "help" group that helped me steer to the right direction.
+    - [Patrick](https://frontend.io/profile/palgramming)
